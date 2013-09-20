@@ -9,8 +9,7 @@ public class HelloWorldAction extends ActionSupport {
  
     private MessageStore messageStore;
      
-    public String execute() throws Exception {
-         
+    public String execute() throws Exception {         
         messageStore = new MessageStore() ;
         return SUCCESS;
     }
