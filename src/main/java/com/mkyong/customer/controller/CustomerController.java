@@ -23,7 +23,7 @@ import com.mkyong.customer.model.Customer;
 import com.mkyong.customer.validator.CustomerValidator;
  
 @Controller
-@RequestMapping("/customer.htm")
+@RequestMapping("/customer")
 public class CustomerController{
  
 	CustomerValidator customerValidator;
